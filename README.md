@@ -4,7 +4,6 @@ Projekti
 
  
 RUOKA RESEPTI SIVUSTO
-HTML & JS : MELIH & FAFA & MOHAMED
-CSS : SAKKE & MELIH 
 
+-Sivusto jossa pystyy etsiä haluamansa ruuan, katsoa reseptiä ja miten valmistaa.
 
