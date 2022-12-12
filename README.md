@@ -1,2 +1,10 @@
 # WebProjekti
 Projekti
+
+
+ 
+RUOKA RESEPTI SIVUSTO
+HTML & JS : MELIH & FAFA & MOHAMED
+CSS : SAKKE & MELIH 
+
+
