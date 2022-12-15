@@ -6,7 +6,7 @@ let url = "https://www.themealdb.com/api/json/v1/1/search.php?s=";
 searchBtn.addEventListener("click", () => {
   let userInp = document.getElementById("user-inp").value;
   if (userInp.length == 0) {
-    result.innerHTML = `<h3>Input Field Cannot Be Empty</h3>`;
+    result.innerHTML = `<h3>Hakukenttä ei voi olla tyhjä.</h3>`;
   } else {
     fetch(url + userInp)
       .then((response) => response.json())
@@ -42,7 +42,7 @@ searchBtn.addEventListener("click", () => {
         <button id="hide-recipe">X</button>
         <pre id="instructions">${myMeal.strInstructions}</pre>
     </div>
-    <button id="show-recipe">View Recipe</button>
+    <button id="show-recipe">Resepti ohje</button>
     `;
         let ingredientCon = document.getElementById("ingredient-con");
         let parent = document.createElement("ul");
@@ -65,7 +65,7 @@ searchBtn.addEventListener("click", () => {
         });
       })
       .catch(() => {
-        result.innerHTML = `<h3>Virheellinen, yritä uudelleen</h3>`;
+        result.innerHTML = `<h3>Virheellinen haku, yritä uudelleen</h3>`;
       });
   }
 });
